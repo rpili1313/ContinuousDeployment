@@ -1,0 +1,33 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Not allowed resource types",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/6c112d4e-5bc7-47ae-a041-ea2d9dccd749",
+  "scope": "/providers/Microsoft.Management/managementGroups/f9962bbc-dfc4-4f5f-90ee-89a61af55545",
+  "notScopes": [],
+  "parameters": {
+   "listOfResourceTypesNotAllowed": {
+    "value": [
+     "microsoft.network/virtualwans"
+    ]
+   }
+  },
+  "metadata": {
+   "assignedBy": "Roberto Pili",
+   "parameterScopes": {
+    "listOfResourceTypesNotAllowed": "/providers/Microsoft.Management/managementGroups/f9962bbc-dfc4-4f5f-90ee-89a61af55545"
+   },
+   "createdBy": "bf58f255-034e-499d-bd8f-5b53384f4cfe",
+   "createdOn": "2020-12-02T15:24:43.8099917Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/f9962bbc-dfc4-4f5f-90ee-89a61af55545/providers/Microsoft.Authorization/policyAssignments/498fce5908b64f34aea941c1",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "498fce5908b64f34aea941c1"
+}
